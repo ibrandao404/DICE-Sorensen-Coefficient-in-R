@@ -9,7 +9,7 @@ This repository contains R scripts for interobserver validation of kidney histol
 - Interstitium
 
 ## Method
-Multiclass segmentation masks exported from QuPath were compared using DSC calculations in R. The 512x512 masks exported are in PNG format and the following values were atributed to each class:
+Multiclass segmentation masks exported from QuPath were compared using DSC and IoU calculations in R. The 512x512 masks exported are in PNG format and the following values were atributed to each class:
 - Glomerulus - 1
 - Vessels - 2
 - Tubules - 3 
